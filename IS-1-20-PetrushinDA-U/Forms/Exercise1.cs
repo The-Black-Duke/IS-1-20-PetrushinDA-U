@@ -173,7 +173,7 @@ namespace IS_1_20_PetrushinDA_U
             
             
                 int Price = Convert.ToInt32(textBox1.Text);
-                int year_of_realese = Convert.ToInt32(textBox2.Text);
+                int year_of_realese = Convert.ToInt32(textBox2.Text); 
                 int gpu_frequency = Convert.ToInt32(textBox6.Text);
                 string manuf = textBox7.Text;
                 int Memory_size = Convert.ToInt32(textBox8.Text);
