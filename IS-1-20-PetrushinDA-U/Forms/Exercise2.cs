@@ -26,7 +26,7 @@ namespace IS_1_20_PetrushinDA_U
             public string ConnStr;
             public string connection()// строка подключения
             {
-                //return ConnStr = $"server=chuc.caseum.ru;port=33333;user=uchebka;database=uchebka;password=uchebka;";
+                //return ConnStr = $"server=10.90.12.110;port=33333;user=uchebka;database=uchebka;password=uchebka;";
                 return ConnStr = $"server=chuc.caseum.ru;port=33333;user=uchebka;database=uchebka;password=uchebka;";
             }
         }
