@@ -47,7 +47,8 @@ namespace IS_1_20_PetrushinDA_U
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Form form = new Exercise5();
+            form.ShowDialog();
         }
 
     }
