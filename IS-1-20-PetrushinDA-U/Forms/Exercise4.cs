@@ -73,7 +73,7 @@ namespace IS_1_20_PetrushinDA_U
             int id = dataGridView1.SelectedCells[0].RowIndex + 1;
             string url = $"SELECT photoUrl FROM t_datatime WHERE ID = {id}";
             MySqlCommand com = new MySqlCommand(url, conn);
-            string picture = com.ExecuteScalar().ToString();
+            string picture = com.ExecuteScalar().ToString(); 
             conn.Close();
             pictureBox1.ImageLocation = picture;
         }
