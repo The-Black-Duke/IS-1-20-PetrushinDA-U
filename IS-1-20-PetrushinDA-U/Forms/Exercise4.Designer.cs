@@ -53,7 +53,7 @@ namespace IS_1_20_PetrushinDA_U
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(344, 200);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Вывести";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

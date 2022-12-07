@@ -42,7 +42,7 @@ namespace IS_1_20_PetrushinDA_U
                 dataGridView1.Columns.Add("Fio", "ФИО");
                 dataGridView1.Columns["Fio"].Width = 100;
                 dataGridView1.Columns.Add("Date_of_Birth", "День рождения");
-                dataGridView1.Columns["Date_of_Birth"].Width = 185;
+                dataGridView1.Columns["Date_of_Birth"].Width = 150;
                 MySqlCommand command = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = command.ExecuteReader();
                 while (reader.Read()) //ридер читает данные из бд
