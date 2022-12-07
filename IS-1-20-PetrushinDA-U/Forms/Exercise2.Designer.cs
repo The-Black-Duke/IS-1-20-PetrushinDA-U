@@ -35,9 +35,9 @@ namespace IS_1_20_PetrushinDA_U
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(210, 140);
+            this.button1.Location = new System.Drawing.Point(179, 140);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(374, 111);
+            this.button1.Size = new System.Drawing.Size(437, 111);
             this.button1.TabIndex = 0;
             this.button1.Text = "Подключиться";
             this.button1.UseVisualStyleBackColor = true;
